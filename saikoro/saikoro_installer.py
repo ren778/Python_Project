@@ -14,7 +14,7 @@ while True:
 if Language == "en":
   print("Warning 1: All future text uses Google Translate. Please note that there are some mistakes.\nWarning 2: The game language is written in Japanese.\n")
 print("ようこそ、サイコロのインストーラーへ" if Language == "ja" else "Welcome to the saikoro installer")
-print("© 2021 rensato All Rights Reserved.\n")
+print("© 2021 RSTokyo All Rights Reserved.\n")
 input("続けるにはEnterキーを押してください\n" if Language == "ja" else "Press Enter to continue\n")
 while True:
   global location
